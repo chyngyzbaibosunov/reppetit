@@ -1,0 +1,285 @@
+body{
+	margin: 0;
+	background: linear-gradient(180deg, #000000 0%, rgba(255, 255, 255, 0) 100%), #B8F900;
+}
+.main{
+	display: flex;
+	flex-direction: column;
+	
+	
+}
+
+/*header start*/
+.header{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin: 10px 35px 10px 35px;
+
+	width: 1300px;
+	height: 74px;
+
+	background: #41AC00;
+	border-radius: 19px;
+
+}
+
+.header button{
+	background: none;
+	border: none;
+	font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 23px;
+}
+
+.header div{
+	background: #FFFFFF;
+border-radius: 24px;
+}
+.category{
+	width: 154.49px;
+height: 48px;
+
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.top{
+	width: 218.56px;
+	height: 48px;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.uslugi{
+	display: flex;
+justify-content: center;
+align-items: center;
+width: 109.28px;
+height: 48px;
+
+}
+
+.obyavlenie{
+display: flex;
+justify-content: center;
+align-items: center;
+width: 171.76px;
+height: 48px;
+
+
+}
+
+.aboutus{
+display: flex;
+justify-content: center;
+align-items: center;
+width: 92.24px;
+height: 48px;
+}
+
+.contacts{
+display: flex;
+justify-content: center;
+align-items: center;
+width: 146.77px;
+height: 48px;
+
+}
+.header .otziv{
+display: flex;
+justify-content: center;
+align-items: center;
+width: 302.4px;
+height: 48px;
+}
+/*header end*/
+.search{
+	margin-left: 35px;
+	display: flex;
+	align-items: center;
+	width: 1300px;
+	height: 62px;
+}
+.search input{
+	width: 1200px;
+	height: 32px;
+}
+
+.search button{
+	margin-left: 10px;
+	height: 34px;
+	width: 100px;
+	background: #FFFFFF;
+	border-radius: 24px;
+}
+
+.panels{
+	display: flex;
+	justify-content: space-between;
+}
+.leftpanel{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-left: 25px;
+}
+
+h1{
+	font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 60px;
+line-height: 70px;
+margin-left: 35px;
+color: #FFFFFF;
+}
+
+.obj{
+	width: 983px;
+height: 100px;
+background: #E8E8E8;
+border: 3px solid #000000;
+box-sizing: border-box;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-bottom: 26px;
+}
+
+.obj p{
+	font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 50px;
+line-height: 59px;
+
+color: #000000;
+}
+
+.info{
+	width: 983px;
+height: 249px;
+background: #FFFFFF;
+border: 3px solid #000000;
+box-sizing: border-box;
+
+display: flex;
+justify-content: center;
+align-items: center;
+margin-bottom: 25px;
+}
+
+.info .icon{
+	width: 207px;
+height: 207px;
+background: #C4C4C4;
+border: 2px solid #000000;
+box-sizing: border-box;
+border-radius: 24px;
+}
+
+.info div{
+	font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 45px;
+line-height: 53px;
+
+color: #000000;
+}
+
+.rlp{
+	margin-left: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: stretch;
+	height: 249px;
+}
+
+.rlp .textrlp {
+ 	margin-bottom: 30px;
+}
+
+.btnrlp{
+	width: 691px;
+height: 47px;
+background: #DDDDDD;
+border: 2px solid #000000;
+box-sizing: border-box;
+display: flex;
+align-items: center;
+
+}
+
+.btnrlp button{
+  background: none;
+  border:none;
+  font-size: 25px;
+line-height: 29px;
+width: 691px;
+display:flex;
+
+}
+
+.rightpanel{
+	display: flex;
+	margin-right: 35px;
+	
+	width: 309px;
+	height: 688px;
+	background: #41AC00;
+
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	
+	margin-left: 28px;
+}
+
+.rightpanel p{
+	font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 38px;
+line-height: 45px;
+/* identical to box height */
+
+
+color: #000000;
+
+}
+
+.bestotziv{
+ display: flex;
+ flex-direction: column;
+ justify-content: space-around;
+ align-items: stretch;
+}
+
+.otziv{
+	width: 246px;
+	height: 146px;
+
+background: #D4D4D4;
+}
+
+.iconllp{
+	width: 101px;
+height: 101px;
+background: #C4C4C4;
+border: 3px solid #000000;
+box-sizing: border-box;
+}
+
+.footer{
+	margin-left: 35px;
+	
+}
